@@ -1,0 +1,104 @@
+* GTE (Global Tropospheric Experiment) is a project of NASA Langley Research
+* Center (NASA-LaRC).  Ozonesonde launches are one component of the data
+* collected in support of this mission.
+*
+* GTE Station: Easter Island, Chile
+*
+* Crespo, Juan, Met Office, Easter Island, Chile
+* Ozone/Ecc sonde
+* Pem-Tropics
+* Latitude of Sonde Launch Station:  -27.17 South
+* Longitude of Sonde Launch Station: -109.42 West
+* Altitude of Sonde Launch Station: 69.2 Meters
+* The geometric altitude, integrated column ozone
+* and ozone mixing ratio were calculated by NASA
+* as data was not provided by Easter.  All sonde
+* levels are reported. 
+*
+#CONTENT
+Class,Category,Level,Form
+WOUDC,OzoneSonde,1,1
+*
+#DATA_GENERATION
+Date,Agency,Version,ScientificAuthority
+1997-1-20,EIMO,1,"Crespo, Juan, , Climatological Services Office, Santiago, Chile"
+* NASA-LaRC Project Co-ordinator: Vince Brackett, NASA-LaRC
+*
+#PLATFORM
+Type,ID,Name,Country,GAW_ID
+STN,441,Easter Island,CHL
+*
+#INSTRUMENT
+Name,Model,Number
+ECC,na,na
+*
+#LOCATION
+Latitude,Longitude,Height
+-27.17,-109.42,69.2
+*
+#TIMESTAMP
+UTCOffset,Date,Time
++00:00:00,2008-1-30,00:21:00
+*
+*
+#PROFILE
+Pressure,O3PartialPressure,Temperature,WindSpeed,WindDirection,LevelCode,Duration,GPHeight,RelativeHumidity,SampleTemperature
+1014.4,0.35,26.5,49,61
+980.9,0.98,21.7,344,78
+947.4,0.98,18.9,644,87
+913.1,0.96,16.7,960,85
+880.1,0.97,15.7,1275,61
+848,0.95,13.5,1588,68
+816.1,0.89,11.3,1910,77
+787.4,0.88,11,2210,66
+757.6,0.96,9.2,2532,68
+728.7,0.92,7.4,2852,56
+700.8,0.91,6.8,3174,19
+674.6,0.95,5.3,3485,5
+646.6,0.95,3.5,3831,12
+622.1,0.9,1.9,4142,25
+598.1,0.87,-0.2,4458,52
+574.9,0.85,-2.4,4773,61
+553.9,0.8,-4.6,5069,73
+530.8,0.79,-5.8,5403,9
+507.7,0.77,-8.7,5749,45
+486.5,0.76,-11.1,6078,59
+468,0.77,-12.5,6376,34
+448,0.74,-14.6,6708,38
+428.5,0.73,-16.6,7043,22
+410.9,0.71,-18.5,7357,23
+393,0.69,-21.3,7687,26
+377,0.68,-23.9,7992,21
+361.2,0.71,-26.6,8304,25
+347.2,0.7,-29.1,8588,32
+333.8,0.65,-31.3,8867,22
+321.1,0.62,-33.5,9141,26
+308.3,0.6,-35.3,9424,21
+296.5,0.59,-37,9697,17
+285.6,0.57,-39.2,9954,15
+274.7,0.52,-41.7,10219,20
+264.1,0.53,-44.2,10485,25
+253.6,0.44,-46.6,10754,29
+243.6,0.37,-48.5,11021,25
+234,0.31,-50.6,11284,26
+224.8,0.27,-51,11546,16
+215.9,0.29,-51,11806,8
+207.3,0.27,-51,12073,5
+199.2,0.21,-51.3,12330,3
+191.5,0.15,-51.9,12586,4
+183.9,0.13,-53.1,12848,3
+176.5,0.13,-53.2,13111,2
+169.4,0.08,-54.3,13378,2
+162.1,0.07,-56.6,13658,2
+154.8,0.05,-58.2,13948,2
+148.3,0.03,-59.9,14217,2
+141.9,0.03,-61.4,14491,2
+135.5,0.03,-63.7,14777,2
+129.5,0.04,-66.1,15052,3
+123.5,0.06,-67.9,15339,3
+117.5,0.09,-70.2,15637,4
+111.7,0.08,-72.2,15934,4
+106,0.09,-74.3,16244,5
+100.8,0.08,-75.4,16531,5
+96,0.1,-75,16819,6
+91.2,0.11,-75,17116,6

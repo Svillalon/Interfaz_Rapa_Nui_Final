@@ -1,0 +1,146 @@
+.custom-control-label::after,
+.custom-control-label::before {
+  display: none;
+}
+
+.custom-control {
+  padding-left: 0;
+}
+
+.custom-control-inline {
+  margin-right: 0;
+}
+
+.date-group-labels {
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  font: bold 11px Roboto, sans-serif;
+  padding: 10px 7px;
+  background: #fff;
+  cursor: pointer;
+  color: #1766a0;
+}
+
+.date-group-labels.date-group-labels-checked {
+  color: #fff;	
+  background: #1766a0;
+  
+}
+
+.custom-radio:first-child .date-group-labels {
+  border-radius: 3px 0 0 3px;
+}
+
+.custom-radio:last-child .date-group-labels {
+  border-radius: 0 3px 3px 0;
+}
+
+.custom-radio:not(:last-child) .date-group-labels {
+  border-right: none;
+}
+
+.date-group-labels:hover {
+  box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/*##########################################calendario########################################################*/
+.DateInput_input, .DateInput_input_1 {
+color: inherit !important;
+text-align: center;
+font-size: inherit ! important;
+Height: 25px !important;
+Width: 100px; !important;
+padding-left: 3px !important;
+padding-right: 3px !important;
+}
+.DateInput.DateInput_1 {
+Width: 100px; !important;
+}
+
+/*##########################################Switch########################################################*/
+
+.sc-ifAKCX.igrnnx,.sc-ifAKCX.dlqMgb{
+border-radius: 0px;
+width: 30px;
+height:30px;
+padding:0px;
+
+}
+
+.sc-ifAKCX.dlqMgb{
+transform: translateX(30px);
+}
+
+.sc-bdVaJa.eMfdXL,.sc-bdVaJa.fsmTNM{
+display:none;
+} 
+.sc-bxivhb.cmSQpo{
+margin-left: 0px;
+margin-right: 0px;
+width: 60px;
+height:30px;
+background-image: url(https://static.thenounproject.com/png/991170-200.png), url(https://static.thenounproject.com/png/991167-200.png);
+background-position:top 0px left 0px,
+top 0px left 30px;
+background-repeat: no-repeat;
+background-size: 30px 30px
+;
+border-radius: 0px;
+padding:0px;
+}
+
+.sc-htpNat.jAjsxw{
+width:60px;
+height:30px;
+}
+
+
+/*##########################################Switch_LAng########################################################*/
+
+#Switch_Lang .sc-ifAKCX.igrnnx{
+border-radius: 0px;
+width: 40px;
+height:26.7px;
+padding:0px;
+}
+
+#Switch_Lang .sc-ifAKCX.dlqMgb{
+border-radius: 0px;
+width: 40px;
+height: 26.7px;
+padding:0px;
+}
+
+#Switch_Lang .sc-ifAKCX.dlqMgb{
+transform: translateX(40px);
+}
+
+#Switch_Lang .sc-bdVaJa.eMfdXL,.sc-bdVaJa.fsmTNM{
+display:none;
+} 
+#Switch_Lang .sc-bxivhb.cmSQpo{
+margin-left: 0px;
+margin-right: 0px;
+width: 80px;
+height:26.7px;
+background-image: url(https://flagcdn.com/w2560/cl.png), url(https://flagcdn.com/w2560/us.png);
+background-position:top 0px left 0px,
+top 0px left 40px;
+background-repeat: no-repeat;
+background-size: 40px 26.7px
+;
+border-radius: 0px;
+padding:0px;
+}
+
+
+
+#Switch_Lang .sc-htpNat.jAjsxw{
+width:80px;
+height:26.7px;
+}
+
+
+
+
+

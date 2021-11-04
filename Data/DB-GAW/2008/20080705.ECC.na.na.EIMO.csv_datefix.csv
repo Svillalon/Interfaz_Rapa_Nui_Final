@@ -1,0 +1,85 @@
+* GTE (Global Tropospheric Experiment) is a project of NASA Langley Research
+* Center (NASA-LaRC).  Ozonesonde launches are one component of the data
+* collected in support of this mission.
+*
+* GTE Station: Easter Island, Chile
+*
+* Crespo, Juan, Met Office, Easter Island, Chile
+* Ozone/Ecc sonde
+* Pem-Tropics
+* Latitude of Sonde Launch Station:  -27.17 South
+* Longitude of Sonde Launch Station: -109.42 West
+* Altitude of Sonde Launch Station: 69.2 Meters
+* The geometric altitude, integrated column ozone
+* and ozone mixing ratio were calculated by NASA
+* as data was not provided by Easter.  All sonde
+* levels are reported. 
+*
+#CONTENT
+Class,Category,Level,Form
+WOUDC,OzoneSonde,1,1
+*
+#DATA_GENERATION
+Date,Agency,Version,ScientificAuthority
+1997-1-20,EIMO,1,"Crespo, Juan, , Climatological Services Office, Santiago, Chile"
+* NASA-LaRC Project Co-ordinator: Vince Brackett, NASA-LaRC
+*
+#PLATFORM
+Type,ID,Name,Country,GAW_ID
+STN,441,Easter Island,CHL
+*
+#INSTRUMENT
+Name,Model,Number
+ECC,na,na
+*
+#LOCATION
+Latitude,Longitude,Height
+-27.17,-109.42,69.2
+*
+#TIMESTAMP
+UTCOffset,Date,Time
++00:00:00,2008-7-5,23:34
+*
+*
+#PROFILE
+Pressure,O3PartialPressure,Temperature,WindSpeed,WindDirection,LevelCode,Duration,GPHeight,RelativeHumidity,SampleTemperature
+Presión,Ozono,Temp,Altura,RH
+hPa,[mPa],°C,gpm,%
+1015.1,0.1,20.3,49,64
+980.6,0.62,16.1,346,77
+946.5,1.15,13.2,646,88
+909.1,1.21,10.3,983,95
+872.8,1.16,8,1322,91
+838.6,0.96,6.1,1652,96
+805.7,1.11,10.8,1982,1
+772.7,1.29,9.8,2328,4
+741.1,0.96,7.6,2674,36
+710.8,1.07,6.1,3016,23
+681.7,0.98,4.3,3357,29
+653.2,0.55,1.6,3703,39
+626.4,0.66,-1,4039,44
+599.6,0.72,-3.7,4386,29
+573.7,1.01,-5.8,4733,28
+548.1,1.17,-6.5,5091,2
+522.5,0.69,-8.9,5462,7
+498.8,0.86,-12,5819,9
+476.1,0.83,-14.9,6174,19
+453.8,0.55,-18.2,6533,27
+432.6,0.62,-19.9,6890,14
+412.9,0.63,-20.4,7235,8
+392.8,0.44,-19.2,7604,3
+375.7,0.24,-22.1,7935,3
+358.3,0.04,-25.2,8281,4
+340.6,0.02,-28.8,8647,5
+325.2,0.06,-31.6,8975,5
+307.5,0.16,-33.6,9368,2
+293.3,0.08,-34.9,9699,1
+278.7,0.03,-36.9,10054,1
+265.1,0.01,-39.6,10398,1
+249.8,0.15,-43,10802,2
+234.3,0.02,-46.2,11229,2
+220.7,0.04,-48.8,11624,2
+206.7,0.06,-51.7,12053,2
+193.7,0.08,-54.9,12472,3
+181.6,0.1,-58.1,12879,4
+170,0.12,-60.8,13291,5
